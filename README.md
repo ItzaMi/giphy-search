@@ -10,6 +10,6 @@ To see this website in action you should clone the code and create a **credentia
 >
 >};
 
-You can obtain your free API OpenWeather key here: https://developers.giphy.com/docs/sdk .
+You can obtain your free API GIPHY key here: https://developers.giphy.com/docs/sdk .
 
 I'll update this README file with a video and images of the functional website!
