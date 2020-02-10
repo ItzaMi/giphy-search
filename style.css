@@ -1,0 +1,258 @@
+:root {
+  --dark-colour: #212121;
+  --primary-colour: #d9d9d9;
+  --slimText: 300;
+  --boldText: 700;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: var(--dark-colour);
+  width: 100%;
+  height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body #searchContainer {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #searchContainer #searchInputBox {
+  width: 100%;
+  height: 30px;
+  text-indent: 20px;
+}
+
+body #searchContainer #searchButton {
+  background-color: var(--primary-colour);
+  border: 0px;
+  padding: 30px 60px;
+  margin-top: 4%;
+  background: #1d4350;
+  background: -webkit-gradient(linear, left top, right top, from(#a43931), to(#1d4350));
+  background: linear-gradient(to right, #a43931, #1d4350);
+  font-size: var(--boldText);
+  color: #fff;
+  text-transform: uppercase;
+}
+
+body #allTheInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+body #allTheInfo div {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+body #allTheInfo div img {
+  max-width: 700px;
+  height: auto;
+}
+
+body #allTheInfo div img:nth-child(1) {
+  height: 388px;
+  line-height: 388px;
+}
+
+body #allTheInfo div img:nth-child(2) {
+  height: 123px;
+  line-height: 123px;
+}
+
+body #allTheInfo div img:nth-child(3) {
+  height: 493px;
+  line-height: 493px;
+}
+
+body #allTheInfo div img:nth-child(4) {
+  height: 486px;
+  line-height: 486px;
+}
+
+body #allTheInfo div img:nth-child(5) {
+  height: 386px;
+  line-height: 386px;
+}
+
+body #allTheInfo div img:nth-child(6) {
+  height: 415px;
+  line-height: 415px;
+}
+
+body #allTheInfo div img:nth-child(7) {
+  height: 301px;
+  line-height: 301px;
+}
+
+body #allTheInfo div img:nth-child(8) {
+  height: 163px;
+  line-height: 163px;
+}
+
+body #allTheInfo div img:nth-child(9) {
+  height: 264px;
+  line-height: 264px;
+}
+
+body #allTheInfo div img:nth-child(10) {
+  height: 368px;
+  line-height: 368px;
+}
+
+body #allTheInfo div img:nth-child(11) {
+  height: 318px;
+  line-height: 318px;
+}
+
+body #allTheInfo div img:nth-child(12) {
+  height: 134px;
+  line-height: 134px;
+}
+
+body #allTheInfo div img:nth-child(13) {
+  height: 389px;
+  line-height: 389px;
+}
+
+body #allTheInfo div img:nth-child(14) {
+  height: 372px;
+  line-height: 372px;
+}
+
+body #allTheInfo div img:nth-child(15) {
+  height: 425px;
+  line-height: 425px;
+}
+
+body #allTheInfo div img:nth-child(16) {
+  height: 136px;
+  line-height: 136px;
+}
+
+body #allTheInfo div img:nth-child(17) {
+  height: 258px;
+  line-height: 258px;
+}
+
+body #allTheInfo div img:nth-child(18) {
+  height: 171px;
+  line-height: 171px;
+}
+
+body #allTheInfo div img:nth-child(19) {
+  height: 110px;
+  line-height: 110px;
+}
+
+body #allTheInfo div img:nth-child(20) {
+  height: 184px;
+  line-height: 184px;
+}
+
+body #allTheInfo div img:nth-child(21) {
+  height: 362px;
+  line-height: 362px;
+}
+
+body #allTheInfo div img:nth-child(22) {
+  height: 281px;
+  line-height: 281px;
+}
+
+body #allTheInfo div img:nth-child(23) {
+  height: 373px;
+  line-height: 373px;
+}
+
+body #allTheInfo div img:nth-child(24) {
+  height: 125px;
+  line-height: 125px;
+}
+
+body #allTheInfo div img:nth-child(25) {
+  height: 420px;
+  line-height: 420px;
+}
+
+body #allTheInfo div img:nth-child(26) {
+  height: 448px;
+  line-height: 448px;
+}
+
+body #allTheInfo div img:nth-child(27) {
+  height: 290px;
+  line-height: 290px;
+}
+
+body #allTheInfo div img:nth-child(28) {
+  height: 178px;
+  line-height: 178px;
+}
+
+body #allTheInfo div img:nth-child(29) {
+  height: 388px;
+  line-height: 388px;
+}
+
+body #allTheInfo div img:nth-child(30) {
+  height: 499px;
+  line-height: 499px;
+}
+
+body #allTheInfo div img:nth-child(31) {
+  height: 481px;
+  line-height: 481px;
+}
+
+body #allTheInfo div img:nth-child(32) {
+  height: 196px;
+  line-height: 196px;
+}
+
+body #allTheInfo div img:nth-child(33) {
+  height: 138px;
+  line-height: 138px;
+}
+
+body #allTheInfo div img:nth-child(34) {
+  height: 223px;
+  line-height: 223px;
+}
+
+body #allTheInfo div img:nth-child(35) {
+  height: 181px;
+  line-height: 181px;
+}
+
+body #allTheInfo div img:nth-child(36) {
+  height: 278px;
+  line-height: 278px;
+}
+/*# sourceMappingURL=style.css.map */

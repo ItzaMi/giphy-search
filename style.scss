@@ -1,0 +1,67 @@
+:root {
+  --dark-colour: #212121;
+  --primary-colour: #d9d9d9;
+  --slimText: 300;
+  --boldText: 700;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: var(--dark-colour);
+  width: 100%;
+  height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+
+  #searchContainer {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #searchInputBox {
+      width: 100%;
+      height: 30px;
+      text-indent: 20px;
+    }
+
+    #searchButton {
+      background-color: var(--primary-colour);
+      border: 0px;
+      padding: 30px 60px;
+      margin-top: 4%;
+      background: #1d4350;
+      background: -webkit-linear-gradient(to right, #a43931, #1d4350);
+      background: linear-gradient(to right, #a43931, #1d4350);
+      font-size: var(--boldText);
+      color: #fff;
+      text-transform: uppercase;
+    }
+  }
+
+  #allTheInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    div {
+        flex: auto;
+
+      img {
+        max-width: 700px;
+        height: auto;
+      }
+
+      @for $i from 1 through 36 {
+        img:nth-child(#{$i}) {
+          $h: (random(400) + 100) + px;
+          height: $h;
+          line-height: $h;
+        }
+      }
+    }
+  }
+}
