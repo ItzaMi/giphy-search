@@ -1,7 +1,7 @@
-weather-website
-# Weather Website using OpenWeather API
+giphy-search
+# Gif search website using Giphy's API
 
-As it stands, the code for this project **is not functional** since it has no API key in it. For safety reasons, as you can see by the *.gitignore* file, **config.js** was not pushed to this repository.
+As it stands, the code for this project **is not functional** since it has no API key in it. For safety reasons, as you can see by the *.gitignore* file, **credentials.js** was not pushed to this repository.
 To see this website in action you should clone the code and create a **credentials.js** file with the following information:
 
 >let credentials = {
